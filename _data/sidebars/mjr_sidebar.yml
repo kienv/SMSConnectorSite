@@ -1,0 +1,19 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: SMSMConnector
+  version:
+  folders:
+
+  - title: JobReady to Moodle
+    output: web, pdf
+    folderitems:
+
+    - title: Introduction
+      url: /jobready-2-moodle/introduction/
+      output: web, pdf
+
+    - title: Users
+      url: /jobready-2-moodle/users/
+      output: web, pdf
