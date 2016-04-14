@@ -2,7 +2,7 @@
 title: Users
 keywords: moodle, 'job ready'
 last_updated: March 20, 2016
-tags: [moodle, 'jobready', 'user-managment']
+tags: [moodle, job_ready, user, users, account]
 summary: "User creationand update with the Moodle to Jobready Connector."
 sidebar: mjr_sidebar
 permalink: /jobready-2-moodle/users/

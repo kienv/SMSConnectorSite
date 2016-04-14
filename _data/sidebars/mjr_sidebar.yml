@@ -2,7 +2,7 @@
 
 entries:
 - title: sidebar
-  product: SMSMConnector
+  product: SMSConnector
   version:
   folders:
 
@@ -12,6 +12,10 @@ entries:
 
     - title: Introduction
       url: /jobready-2-moodle/introduction/
+      output: web, pdf
+
+    - title: Installation
+      url: /jobready-2-moodle/installation/
       output: web, pdf
 
     - title: Users
