@@ -17,10 +17,7 @@ Create your user in JobReady as usual.
 SMSConnector synchronises user data beteween JobReady and Moodle.
 The arrows symbolise the direction of the data synchonisation.
 
-| create user account           | JOBREADY | => | MOODLE
-| update user account           | JOBREADY | => | MOODLE
-| delete user account           | JOBREADY | => | MOODLE
-| enroll user into unit/groups  | JOBREADY | => | MOODLE
+| enroll user into a course  | JOBREADY | => | Create user in MOODLE
 
 
 ## User fields
@@ -38,7 +35,6 @@ Required Jobready user account fields and their mapping to Moodle:
 
 ### The ID Number Field
 
-SMSConnector creates A custom Moodle user field `ID Number`.
 
 You find this field in the user settings uunder the *optional* fields.
 This ID controls the Synchronisation to Jobready. If this number is changed the synchronisation would break.
